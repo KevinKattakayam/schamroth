@@ -1,0 +1,393 @@
+================================================================================
+SCHAMROTH WINDOW DETECTION - EVALUATION REPORT
+================================================================================
+Generated: 2025-12-28 16:13:36
+================================================================================
+
+OVERALL SUMMARY
+--------------------------------------------------------------------------------
+Total Images Processed: 65
+Correctly Classified: 31
+Overall Accuracy: 47.69%
+
+OVERALL CONFUSION MATRIX
+--------------------------------------------------------------------------------
+True Positives (Clubbing correctly detected): 1
+True Negatives (Healthy correctly detected): 30
+False Positives (Healthy misclassified as Clubbing): 0
+False Negatives (Clubbing misclassified as Healthy): 34
+
+
+================================================================================
+DATASET: Healthy (Diamond Gap Present)
+================================================================================
+
+Total Images: 30
+Processed: 30
+Correct: 30
+Accuracy: 100.00%
+Sensitivity: 0.00%
+Specificity: 100.00%
+Precision: 0.00%
+F1-Score: 0.00%
+
+DETAILED RESULTS:
+  [✓] IMG20251219205947.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6397
+      Confidence: HIGH
+  [✓] IMG20251219205950.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6982
+      Confidence: HIGH
+  [✓] IMG20251219210017.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6121
+      Confidence: HIGH
+  [✓] IMG20251219210221.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.8445
+      Confidence: HIGH
+  [✓] IMG20251219210224.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6209
+      Confidence: HIGH
+  [✓] IMG20251219210227.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6248
+      Confidence: HIGH
+  [✓] IMG20251219210232.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.7090
+      Confidence: HIGH
+  [✓] IMG20251219210234.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6289
+      Confidence: HIGH
+  [✓] IMG20251219210454.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.8586
+      Confidence: HIGH
+  [✓] IMG20251219210457.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6240
+      Confidence: HIGH
+  [✓] IMG20251219210459.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6098
+      Confidence: HIGH
+  [✓] IMG20251219210518.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.3101
+      Confidence: LOW
+  [✓] IMG20251219210539.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6042
+      Confidence: HIGH
+  [✓] IMG20251219210542.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.7099
+      Confidence: HIGH
+  [✓] IMG20251219210543.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6198
+      Confidence: HIGH
+  [✓] IMG20251219210604.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6238
+      Confidence: HIGH
+  [✓] IMG20251219210610.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6082
+      Confidence: HIGH
+  [✓] IMG20251219210612.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6113
+      Confidence: HIGH
+  [✓] IMG20251219210614.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 1.0000
+      Confidence: HIGH
+  [✓] IMG20251219210625.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6548
+      Confidence: HIGH
+  [✓] IMG20251219210648.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6690
+      Confidence: HIGH
+  [✓] IMG20251219210650.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.9954
+      Confidence: HIGH
+  [✓] IMG20251219210705.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.8064
+      Confidence: HIGH
+  [✓] IMG20251219211020.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.8668
+      Confidence: HIGH
+  [✓] IMG20251219211022.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.7503
+      Confidence: HIGH
+  [✓] IMG20251219211039.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.9309
+      Confidence: HIGH
+  [✓] IMG20251219211606.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6838
+      Confidence: HIGH
+  [✓] IMG20251219211654.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6068
+      Confidence: HIGH
+  [✓] IMG20251219211656.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6000
+      Confidence: HIGH
+  [✓] IMG20251219211707.jpg
+      Ground Truth: Healthy
+      Prediction: Healthy
+      Gap Ratio: 0.6216
+      Confidence: HIGH
+
+================================================================================
+DATASET: Clubbed/Simulated (No Diamond Gap)
+================================================================================
+
+Total Images: 30
+Processed: 30
+Correct: 0
+Accuracy: 0.00%
+Sensitivity: 0.00%
+Specificity: 0.00%
+Precision: 0.00%
+F1-Score: 0.00%
+
+DETAILED RESULTS:
+  [✗] IMG20251219212721.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6391
+      Confidence: HIGH
+  [✗] IMG20251219212724.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 1.0000
+      Confidence: HIGH
+  [✗] IMG20251219212734.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6121
+      Confidence: HIGH
+  [✗] IMG20251219212735.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6013
+      Confidence: HIGH
+  [✗] IMG20251219212737.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.9228
+      Confidence: HIGH
+  [✗] IMG20251219212740.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.7353
+      Confidence: HIGH
+  [✗] IMG20251219212742.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 1.0000
+      Confidence: HIGH
+  [✗] IMG20251219212829.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6135
+      Confidence: HIGH
+  [✗] IMG20251219212832.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6254
+      Confidence: HIGH
+  [✗] IMG20251219212834.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6055
+      Confidence: HIGH
+  [✗] IMG20251219212835.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6019
+      Confidence: HIGH
+  [✗] IMG20251219212836.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6021
+      Confidence: HIGH
+  [✗] IMG20251219212837.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6260
+      Confidence: HIGH
+  [✗] IMG20251219212906.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6049
+      Confidence: HIGH
+  [✗] IMG20251219212908.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6126
+      Confidence: HIGH
+  [✗] IMG20251219212909.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6232
+      Confidence: HIGH
+  [✗] IMG20251219212911.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6119
+      Confidence: HIGH
+  [✗] IMG20251219212913.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6049
+      Confidence: HIGH
+  [✗] IMG20251219212914.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6110
+      Confidence: HIGH
+  [✗] IMG20251219213004.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.9894
+      Confidence: HIGH
+  [✗] IMG20251219213008.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6146
+      Confidence: HIGH
+  [✗] IMG20251219213009.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.9590
+      Confidence: HIGH
+  [✗] IMG20251219213010.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6050
+      Confidence: HIGH
+  [✗] IMG20251219213011.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6071
+      Confidence: HIGH
+  [✗] IMG20251219213032.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6560
+      Confidence: HIGH
+  [✗] IMG20251219213032_01.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6135
+      Confidence: HIGH
+  [✗] IMG20251219213034.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.8588
+      Confidence: HIGH
+  [✗] IMG20251219213036.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6958
+      Confidence: HIGH
+  [✗] IMG20251219213036_01.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6752
+      Confidence: HIGH
+  [✗] IMG20251219213037.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6589
+      Confidence: HIGH
+
+================================================================================
+DATASET: External Clinical (Clubbing)
+================================================================================
+
+Total Images: 5
+Processed: 5
+Correct: 1
+Accuracy: 20.00%
+Sensitivity: 20.00%
+Specificity: 0.00%
+Precision: 100.00%
+F1-Score: 33.33%
+
+DETAILED RESULTS:
+  [✗] clubbed1.jpg
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.6000
+      Confidence: HIGH
+  [✗] clubbed2.png
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.8010
+      Confidence: HIGH
+  [✗] clubbed3.png
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 1.0000
+      Confidence: HIGH
+  [✗] clubbed4.png
+      Ground Truth: Clubbing
+      Prediction: Healthy
+      Gap Ratio: 0.7244
+      Confidence: HIGH
+  [✓] clubbed5.png
+      Ground Truth: Clubbing
+      Prediction: Clubbing
+      Gap Ratio: 0.1353
+      Confidence: MEDIUM
+
+================================================================================
+END OF REPORT
+================================================================================

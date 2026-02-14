@@ -1,0 +1,12 @@
+sch/
+healthy/
+simulated/
+flutter_app/
+external/
+android_app/
+__pycache__/
+*.jpg
+*.jpeg
+*.png
+*.csv
+.idea/
